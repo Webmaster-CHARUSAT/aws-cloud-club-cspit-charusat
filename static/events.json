@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Hands On With Linux",
+    "description": "AWS Community Hero Nilesh Vaghela and his team hosted an engaging workshop titled \"Hands-On With Linux.\" The workshop aimed to introduce students to the industry's extensive use of Linux, offering practical insights and hands-on experience. Attendees gained valuable knowledge about Linux's relevance in various industries, highlighting its importance in the tech ecosystem. This event exemplified AWS's commitment to empowering the next generation of tech enthusiasts with valuable skills and knowledge.",
+    "date": "16 SEPT 2022",
+    "imageUrl": "/images/events/image1.webp",
+    "DisplayDate": "16 SEPT 2022"
+  },
+  {
+    "title": "Womens' Day Celebration",
+    "description": "On 10th March 2022, Women's Day was celebrated vibrantly with the AWS Cloud Club at Charotar University, honoring the achievements and contributions of women in technology. The event featured insightful discussions, inspiring talks, and empowering activities, fostering a supportive community for women in the field.",
+    "date": "10 MARCH 2022",
+    "imageUrl": "/images/events/image2.jpg",
+    "DisplayDate": "10 MARCH 2022"
+  },
+  {
+    "title": "Getting Started With DevOps",
+    "description": "The \"Getting Started With DevOps\" series kicked off with an introduction to serverless computing. This was followed by sessions on February 19, 2022, covering the basics of CloudFormation, focusing on the fundamentals of DevOps. These sessions provided attendees with a comprehensive understanding of key concepts and practices in modern cloud computing and software development methodologies.",
+    "date": "12 FEB 2022",
+    "imageUrl": "/images/events/image3.webp",
+    "DisplayDate": "12 FEB 2022"
+  },
+  {
+    "title": "ML Bootcamp",
+    "description": "ASC conducted a 7-day long Machine Learning Bootcamp in collaboration with Microsoft Learn. The bootcamp provided participants with a deep dive into machine learning concepts and practical applications, enhancing their skills and knowledge in this rapidly evolving field.",
+    "date": "5 FEB 2022",
+    "imageUrl": "/images/events/image4.webp",
+    "DisplayDate": "05 FEB 2022"
+  },
+  {
+    "title": "October-Series",
+    "description": "The October-Series in 2020 was a three-day event featuring informative sessions on Amazon App Stream, Security Cost Pillar, and Docker on AWS. Held from October 15 to 17, attendees gained valuable insights into these topics, deepening their understanding of AWS technologies and their practical applications.",
+    "date": "15 OCT 2020",
+    "imageUrl": "/images/events/image5.jpg",
+    "DisplayDate": "15 OCT 2020"
+  },
+  {
+    "title": "ASC Webinar",
+    "description": "Recalling the ASC Webinar held on Wednesday, April 15, 2020, featuring Sandip Patel, an AWS Academy Accredited Instructor.",
+    "date": "15 APRIL 2020",
+    "imageUrl": "/images/events/image6.png",
+    "DisplayDate": "15 APRIL 2020"
+  },
+  {
+    "title": "Cloud-a-Thon",
+    "description": "The Cloud-a-Thon event at Charotar University on March 28th, 2020, brought together enthusiasts for a day of innovation and hands-on learning in cloud technology.",
+    "date": "28 MARCH 2020",
+    "imageUrl": "/images/events/image7.jpg",
+    "DisplayDate": "28 MARCH 2020"
+  },
+  {
+    "title": "AWSome Day",
+    "description": "AWS hosted an AWSome Day, a free, one-day event led by AWS technical instructors. The event was tailored for technical leaders, IT professionals, and developers interested in gaining introductory training and insights into AWS products and cloud computing. Attendees had the opportunity to learn directly from experts and enhance their understanding of AWS technologies.",
+    "date": "3 MARCH 2020",
+    "imageUrl": "/images/events/image8.png",
+    "DisplayDate": "03 MARCH 2020"
+  },
+  {
+    "title": "AWS CI/CD: From Code to Production",
+    "description": "The AWS community was enriched by a hands-on introductory session led by Dr. Parth Shah, an AWS Community Builder. The session focused on the construction of Continuous Integration and Continuous Delivery (CI/CD) pipelines, vital components in modern software development. Attendees gained practical insights into deploying code to production efficiently and effectively, reflecting AWS's commitment to empowering developers with cutting-edge tools and practices.",
+    "date": "7 APRIL 2023",
+    "imageUrl": "/images/events/image9.png",
+    "DisplayDate": "07 APRIL 2023"
+  },
+  {
+    "title": "Infrastructure Camp Workshop",
+    "description": "Embark on a transformative journey into the cloud with our hands-on AWS Infrastructure workshop! Perfect for both beginners and those with some cloud experience, this workshop is your gateway to mastering AWS services and deploying them with confidence.",
+    "date": "4 MARCH 2024",
+    "imageUrl": "/images/events/04032024.png",
+    "DisplayDate": "04 MARCH 2024"
+  },
+  {
+    "title": "CloudUP ON Her Celebrating Women's Day",
+    "description": "This event is all about celebrating and empowering women in the field of cloud computing. Dive into a day filled with enlightening talks, engaging panel discussions, and exciting networking opportunities.",
+    "date": "18 MARCH 2024",
+    "imageUrl": "/images/events/18032024.png",
+    "DisplayDate": "18 MARCH 2024"
+  },
+  {
+    "title": "Cloud Security Essentials: AWS Networking & Beyond",
+    "description": "The \"Cloud Security Essentials: AWS Networking & Beyond\" virtual event on April 6th, 2024, featuring Amit Arora, Senior Security Architect at AWS, provided deep insights into cloud security, AWS networking intricacies, and guidance for starting a career in cloud security. The session facilitated vibrant discussions on cybersecurity, allowed attendees to network with like-minded individuals, and offered the unique chance to engage in one-on-one conversations with an industry expert. This event served as an informative platform for delving into the dynamics of cloud security, aimed at enhancing knowledge and fostering community connections within the field. Stay connected for future opportunities and resources in cloud security.",
+    "date": "06 APRIL 2024",
+    "imageUrl": "/images/events/06042024.png",
+    "DisplayDate": "06 APRIL 2024"
+  },
+  {
+    "title": " AWS Cloud Bootcamp & Internship",
+    "description": "The Internship covered CloudFront, LLM, Amazon Badrock, AWS Lambda, AWS API, AWS DynamoDB and Amazon EC2 enriching the experience of the student in Cloud Computing",
+    "date": "30 June 2024",
+    "imageUrl": "/images/events/1720424543530.jpeg",
+    "DisplayDate": "25 May - 30 JUNE 2024"
+  }
+]
