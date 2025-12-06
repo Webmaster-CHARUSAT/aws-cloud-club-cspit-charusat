@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { JoinFormResponses, columns } from "@/components/join/columns";
 import { DataTable } from "@/components/join/data-table";
 import connect from "@/lib/db";
