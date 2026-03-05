@@ -10,6 +10,20 @@ export default function EventsPage() {
       date: "2025-07-21",
       imageUrl: "/images/events/final event root-1.jpg",
       DisplayDate: "15 JAN 2025"
+    },
+    {
+      title: "The Golden Stack: Skills, Certs & Cloud Leadership",
+      description: "The AWS Club organized an event titled \"The Golden Stack: Skills, Certs & Cloud Leadership\" to guide students through the AWS Certification Journey and career opportunities in cloud computing. The event began with a technical session on \"Emerging Trends in Cloud Computing – AI Integration with Cloud Platforms\", followed by a Career Guidance Session focusing on building careers in Cloud and DevOps and pathways to global tech companies. A dedicated session highlighted the AWS certification journey from beginner to Golden Jacket achiever, including hands-on workshops on SageMaker, Serverless, and Security. The event concluded with an interactive Q&A and a valedictory session.",
+      date: "2024-11-15",
+      imageUrl: "/images/events/golden-jacket-event.png",
+      DisplayDate: "15 NOV 2024"
+    },
+    {
+      title: "Infrastructure as Code on AWS: A Hands-on Journey with Terraform",
+      description: "The AWS Club organized an online session on \"Infrastructure as Code on AWS: A Hands-on Journey with Terraform.\" The session was delivered by AWS Community Builder Mr. SandipKumar Patel, who introduced participants to the fundamentals of Infrastructure as Code (IaC) and demonstrated how Terraform can be used to efficiently provision and manage cloud infrastructure on AWS. Participants gained insights into core IaC concepts, practical Terraform usage, and best practices for managing cloud resources. The interactive session also included a live Q&A.",
+      date: "2024-10-04",
+      imageUrl: "/images/events/sandeep-event.jpeg",
+      DisplayDate: "04 OCT 2024"
     }
   ];
 
