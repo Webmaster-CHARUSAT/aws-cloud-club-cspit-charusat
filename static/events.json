@@ -89,19 +89,5 @@
     "date": "30 June 2024",
     "imageUrl": "/images/events/1720424543530.jpeg",
     "DisplayDate": "25 May - 30 JUNE 2024"
-  },
-  {
-    "title": "Infrastructure as Code on AWS: A Hands-on Journey with Terraform",
-    "description": "The AWS Club organized an online session on \"Infrastructure as Code on AWS: A Hands-on Journey with Terraform.\" The session was delivered by AWS Community Builder Mr. SandipKumar Patel, who introduced participants to the fundamentals of Infrastructure as Code (IaC) and demonstrated how Terraform can be used to efficiently provision and manage cloud infrastructure on AWS. Participants gained insights into core IaC concepts, practical Terraform usage, and best practices for managing cloud resources. The interactive session also included a live Q&A, allowing students to clarify their doubts and deepen their understanding of modern cloud infrastructure management.",
-    "date": "04 OCT 2024",
-    "imageUrl": "/images/events/sandeep-event.jpeg",
-    "DisplayDate": "04 OCT 2024"
-  },
-  {
-    "title": "The Golden Stack: Skills, Certs & Cloud Leadership",
-    "description": "The AWS Club organized an event titled \"The Golden Stack: Skills, Certs & Cloud Leadership\" to guide students through the AWS Certification Journey and career opportunities in cloud computing. The event began with a technical session on \"Emerging Trends in Cloud Computing – AI Integration with Cloud Platforms\", followed by a Career Guidance Session focusing on building careers in Cloud and DevOps and pathways to global tech companies. A dedicated session for AWS Academy and cloud enthusiast students highlighted the AWS certification journey from beginner to Golden Jacket achiever, including hands-on workshops on SageMaker, Serverless, and Security, along with insights into AWS global events, hackathons, mentorship programs, learning portals, and Cloud Captain roles. The event concluded with an interactive Q&A and a valedictory session.",
-    "date": "15 NOV 2024",
-    "imageUrl": "/images/events/golden-jacket-event.png",
-    "DisplayDate": "15 NOV 2024"
   }
 ]
