@@ -61,7 +61,7 @@ export default function AWSBlogs() {
       <div className="relative bg-black overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/resources/aws-blogs.jpg"
+            src="/images/resources/aws-blog-cl.png"
             alt="AWS Blogs background"
             fill
             className="object-cover object-center"

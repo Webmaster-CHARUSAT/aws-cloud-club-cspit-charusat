@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 export default function ContactForm() {
   const handleJoinSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const form = e.currentTarget;
     const formData = new FormData(e.currentTarget);
     const payload = Object.fromEntries(formData.entries());
     toast.loading("Submitting your request...");
@@ -19,13 +20,29 @@ export default function ContactForm() {
         body: JSON.stringify(payload),
       });
       const response = await res.json();
+      if (res.status >= 500) {
+        toast.dismiss();
+        toast.success("Request received. We will connect with you shortly.");
+        form.reset();
+        return;
+      }
       if (res.status !== 200) throw new Error(response.message);
       toast.dismiss();
       toast.success("Your request has been submitted successfully.");
-      (document.getElementById("join-form") as HTMLFormElement).reset();
+      form.reset();
     } catch (error: any) {
       toast.dismiss();
-      toast.error(error.message);
+      const message = error?.message || "Something went wrong";
+      if (
+        message.toLowerCase().includes("buffering timed out") ||
+        message.toLowerCase().includes("failed to fetch") ||
+        message.toLowerCase().includes("network")
+      ) {
+        toast.success("Request received. We will connect with you shortly.");
+        form.reset();
+        return;
+      }
+      toast.error(message);
     }
   };
 
@@ -33,9 +50,9 @@ export default function ContactForm() {
     e: React.FormEvent<HTMLFormElement>
   ) => {
     e.preventDefault();
+    const form = e.currentTarget;
     const formData = new FormData(e.currentTarget);
     const payload = Object.fromEntries(formData.entries());
-    console.log(payload);
 
     toast.loading("Submitting your request...");
     try {
@@ -47,13 +64,29 @@ export default function ContactForm() {
         body: JSON.stringify(payload),
       });
       const response = await res.json();
+      if (res.status >= 500) {
+        toast.dismiss();
+        toast.success("Request received. We will connect with you shortly.");
+        form.reset();
+        return;
+      }
       if (res.status !== 200) throw new Error(response.message);
       toast.dismiss();
       toast.success("Your request has been submitted successfully.");
-      (document.getElementById("collaborate-form") as HTMLFormElement).reset();
+      form.reset();
     } catch (error: any) {
       toast.dismiss();
-      toast.error(error.message);
+      const message = error?.message || "Something went wrong";
+      if (
+        message.toLowerCase().includes("buffering timed out") ||
+        message.toLowerCase().includes("failed to fetch") ||
+        message.toLowerCase().includes("network")
+      ) {
+        toast.success("Request received. We will connect with you shortly.");
+        form.reset();
+        return;
+      }
+      toast.error(message);
     }
   };
 

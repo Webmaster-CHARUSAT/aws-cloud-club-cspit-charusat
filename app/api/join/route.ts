@@ -3,12 +3,20 @@ import { NextRequest, NextResponse } from "next/server";
 import Join from "@/schema/Join";
 
 export async function GET(request: NextRequest, response: NextResponse) {
-  const joins = await Join.find();
-  return NextResponse.json(joins);
+  try {
+    await connect();
+    const joins = await Join.find();
+    return NextResponse.json(joins);
+  } catch (error: any) {
+    return NextResponse.json(
+      { message: error.message || "Failed to fetch joins" },
+      { status: 500 }
+    );
+  }
 }
 
 export async function POST(request: NextRequest, response: NextResponse) {
-  connect();
+  await connect();
   const { name, email, phone, message } = await request.json();
 
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
