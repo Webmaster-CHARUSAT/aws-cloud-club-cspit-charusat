@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 import Collaborate from "@/schema/Collaborate";
 
 export async function POST(request: NextRequest, response: NextResponse) {
-  connect();
+  await connect();
   const { name, email, phone, message, company } = await request.json();
 
   const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
