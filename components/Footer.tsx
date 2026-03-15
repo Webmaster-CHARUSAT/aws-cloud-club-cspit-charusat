@@ -94,17 +94,17 @@ const Footer = () => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           {/* Logo and Description Section */}
           <div className="space-y-6 xl:col-span-1">
-            <div className="flex items-center space-x-3">
+            <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">
               <Image
                 src="/images/logo-2.png"
-                className="h-21 w-auto filter invert"
+                className="h-21 w-auto max-w-full filter invert"
                 width={96}
                 height={96}
                 alt="AWS Cloud Club Logo"
               />
               <Image
                 src="/images/charusat.webp"
-                className="h-10 w-auto"
+                className="h-10 w-auto max-w-full"
                 width={160}
                 height={64}
                 alt="CHARUSAT Logo"
