@@ -165,7 +165,7 @@ export default function AWSBlogs() {
                 <ul className="space-y-2">
                   {[
                     { name: "Dr. Purvi Prajapati", role: "Faculty Conveyor & Club Lead" },
-                    { name: "Sanket Suthar", role: "Club Lead" },
+                    { name: "Dr. Sanket Suthar", role: "Club Lead" },
                     { name: "Sandip Patel", role: "AWS Accredited Instructor, AWS Community Builder & Club Lead" },
                   ].map((m) => (
                     <li key={m.name} className="flex gap-3">
@@ -184,7 +184,7 @@ export default function AWSBlogs() {
               <div className="mb-6">
                 <p className="text-xs font-semibold text-purple-400 uppercase tracking-widest mb-3">Club Captain</p>
                 <p>
-                  <span className="font-medium text-white">Jiya Thakkar</span> leads the club as Captain — driving the vision, the community, and the culture that makes AWS Cloud Club CHARUSAT what it is.
+                  <span className="font-medium text-white">Jiya Thakkar — Captain</span> leads the club as Captain — driving the vision, the community, and the culture that makes AWS Cloud Club CHARUSAT what it is.
                 </p>
               </div>
 

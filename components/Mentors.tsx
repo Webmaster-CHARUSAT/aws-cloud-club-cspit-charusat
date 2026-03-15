@@ -12,7 +12,7 @@ const people = [
     linkedinUrl: "https://www.linkedin.com",
   },
   {
-    name: "Sanket Suthar",
+    name: "Dr. Sanket Suthar",
     role: "Club Lead",
     imageUrl: "/images/team/ss.jpeg",
     gitHub: "#",

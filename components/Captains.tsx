@@ -4,7 +4,7 @@ import BlurText from "./animations-ui/BlurText";
 
 const people = [
   {
-    name: "Jiya Thakkar",
+    name: "Jiya Thakkar - Captain",
     role: "Club Captain",
     imageUrl: "/images/team/members/jiyaT.jpg",
     gitHub: "https://github.com",
