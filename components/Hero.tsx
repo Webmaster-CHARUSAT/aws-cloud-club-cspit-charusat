@@ -92,7 +92,7 @@ export default function Hero() {
               size="lg"
               className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-purple-500/25 transition-all duration-300 border border-purple-500"
             >
-              <Link href="/join">Join Our Club</Link>
+                <Link href="/contact-us">Join Our Club</Link>
             </Button>
             <Button
               asChild

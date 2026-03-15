@@ -174,11 +174,11 @@ const Footer = () => {
                   Get in Touch
                 </h3>
                 <div className="mt-4 space-y-3">
-                  <div className="flex items-center space-x-2">
-                    <svg className="h-4 w-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <svg className="h-4 w-4 text-purple-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <p className="text-sm leading-6 text-purple-200">
+                    <p className="text-sm leading-6 text-purple-200 break-all min-w-0">
                       awscloudclub@charusat.ac.in
                     </p>
                   </div>
@@ -200,7 +200,7 @@ const Footer = () => {
                     </p>
                   </div>
                   <Link
-                    href="/join"
+                    href="/contact-us"
                     className="inline-flex items-center px-3 py-2 text-sm font-medium text-black bg-purple-500 hover:bg-purple-400 rounded-lg transition-colors duration-300 transform hover:scale-105"
                   >
                     Join Our Club
