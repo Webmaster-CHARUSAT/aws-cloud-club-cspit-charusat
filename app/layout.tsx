@@ -7,6 +7,11 @@ import { Toaster } from "@/components/ui/sonner";
 export const metadata: Metadata = {
   title: "AWS Cloud Club - CHARUSAT",
   description: "AWS Cloud Club - CHARUSAT",
+  icons: {
+    icon: "/images/web-icon.png",
+    shortcut: "/images/web-icon.png",
+    apple: "/images/web-icon.png",
+  },
 };
 
 export default function RootLayout({
