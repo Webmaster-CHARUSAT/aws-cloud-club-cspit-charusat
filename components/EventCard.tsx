@@ -14,16 +14,22 @@ type Props = {
   image: string;
   description: string;
   DisplayDate: string;
-  date: string
+  date: string;
+  badge?: string;
 };
 
-export default function EventCard({ description, image, title,date,DisplayDate }: Props) {
+export default function EventCard({ description, image, title, date, DisplayDate, badge }: Props) {
   return (
     <>
       <Dialog>
         <DialogTrigger asChild>
           <div className="max-w-xs w-full bg-gray-900 border border-purple-600/30 rounded-lg shadow-lg shadow-purple-500/10 cursor-pointer mx-auto transition-transform hover:scale-102">
-            <div className="aspect-1">
+            <div className="relative aspect-1">
+              {badge ? (
+                <span className="absolute left-3 top-3 z-10 rounded-full border border-white/30 bg-gradient-to-r from-amber-500 to-orange-500 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow-lg">
+                  {badge}
+                </span>
+              ) : null}
               <Image
                 width={500}
                 height={800}

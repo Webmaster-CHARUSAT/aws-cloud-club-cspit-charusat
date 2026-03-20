@@ -6,6 +6,21 @@ export default function Events() {
   // Add new Events section
   const newEvents = [
     {
+      title: "AWS Community Day 2026",
+      description: "Join us for AWS Community Day 2026 with expert sessions, community networking, and cloud innovation experiences.",
+      date: "2026-03-20",
+      imageUrl: "/images/events/aws-community-day-2026.jpeg",
+      DisplayDate: "20 MAR 2026",
+      badge: "Happening Soon"
+    },
+    {
+      title: "AWS for ECE",
+      description: "A focused event for Electronics and Communication students to explore practical AWS use-cases and cloud career pathways.",
+      date: "2026-03-10",
+      imageUrl: "/images/events/aws-for-ece.png",
+      DisplayDate: "10 MAR 2026"
+    },
+    {
       title: "AWS Roots",
       description: "AWS Roots is our introductory event packed with cloud fundamentals, exciting activities, and a chance to connect with the AWS community.",
       date: "2025-01-15",
@@ -50,6 +65,7 @@ export default function Events() {
               description={event.description}
               image={event.imageUrl}
               title={event.title}
+              badge={event.badge}
             />
           ))}
         </div>
