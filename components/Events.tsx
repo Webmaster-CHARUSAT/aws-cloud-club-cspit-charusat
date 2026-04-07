@@ -7,11 +7,11 @@ export default function Events() {
   const newEvents = [
     {
       title: "AWS Community Day 2026",
-      description: "Join us for AWS Community Day 2026 with expert sessions, community networking, and cloud innovation experiences.",
+      description: "Thank you to everyone who joined AWS Community Day 2026 and made it a huge success for our community.",
       date: "2026-03-20",
       imageUrl: "/images/events/aws-community-day-2026.jpeg",
       DisplayDate: "20 MAR 2026",
-      badge: "Happening Soon"
+      badge: "Thank You"
     },
     {
       title: "AWS for ECE",
